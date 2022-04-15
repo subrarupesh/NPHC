@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A Simple CRUD API to consume user uploads",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.14",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "socket.io": "^4.0.1",
+    "util": "^0.12.1"
+  },
+  "author": "Rupesh S",
+  "license": "ISC"
+}
